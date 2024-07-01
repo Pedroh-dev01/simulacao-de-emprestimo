@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background: url();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    color: #fff;
+    background-color: #0d1b2a;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 450px;
+    border-radius: 30px;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-form h1{
+    font-size: 30px;
+    margin: 1.5rem;
+}
+
+#form-de-emprestimo{
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+}
+
+#form-de-emprestimo label{
+    font-size: 24px;
+}
+
+.conteudo-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#form-de-emprestimo input{
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #778da9;
+    border: 2px solid #e0e1dd;
+}
+
+.container-resultado{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-resultado-info{
+    background-color: #1b263b;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 70%;
+    gap: 2rem;
+    border-radius: 30px;
+}
+
+.container-resultado-info h2{
+    font-size: 33px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.container-resultado-info p{
+    margin-left: 1rem;
+}
