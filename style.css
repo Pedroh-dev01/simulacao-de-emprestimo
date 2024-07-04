@@ -89,3 +89,41 @@ main{
 .container-resultado-info p{
     margin-left: 1rem;
 }
+
+/* Responsividade */
+
+@media screen and (max-width: 700px){
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 900px;
+        width: 90%;
+        margin: 2rem auto;
+    }
+
+    .container-form{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .container-resultado{
+        height: 620px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 701px) and (max-width:1000px){
+    main{
+        padding: 1rem;
+        height: 500px;
+        width: 90%;
+    }
+
+    .container-resultado{
+        height: 80%;
+        width: 70%;
+    }
+}
