@@ -117,12 +117,16 @@ main{
     }
 
     .container-resultado{
-        height: 980px;
+        height: 500px;
         width: 100%;
         margin-bottom: -4rem;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .container-resultado-info{
+        padding-top:1rem;
     }
 }
 
